@@ -43,10 +43,10 @@ const ServicesSection = () => {
         <div>
           <h3 className="text-2xl font-semibold mb-2">Custom Requests</h3>
           <p>
-            We understand that each individual's wellness journey is unique. Whether
-            you're seeking personalized breath work sessions, specialized sauna
-            experiences, or tailored wellness programs, we are committed to accommodating
-            your specific needs to ensure an optimal and personalized experience.
+            I understand that each individual's wellness journey is unique. Whether you're
+            seeking personalized breath work sessions, specialized sauna experiences, or
+            tailored wellness programs, we are committed to accommodating your specific
+            needs to ensure an optimal and personalized experience.
           </p>
         </div>
         {/* Add more services as needed */}
