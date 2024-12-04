@@ -1,12 +1,15 @@
 {
   "name": "sauna-master-website",
+  "homepage": "https://olearykieran.github.io/sauna-master",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "firebase": "^11.0.2",
@@ -15,6 +18,7 @@
     "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
   }
